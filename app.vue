@@ -147,10 +147,17 @@
             eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris.
           </p>
 
-          <div class="flex mt-5">
-            <span class="block rounded-full bg-cover bg-center size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-stephen.png')]"></span>
+          <div class="flex gap-5 justify-center mt-5">
+            <div class="text-center">
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
+              Stephen Kiersey
+            </div>
 
-            <span class="block rounded-full bg-cover bg-center size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-john.png')]"></span>
+            <div class="text-center">
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-john.png')]"></div>
+              John MacNaughton
+            </div>
+
           </div>
         </div>
       </div>

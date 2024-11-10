@@ -15,6 +15,9 @@ export default defineNuxtConfig({
           crossorigin: 'anonymous',
         },
       ],
-    }
+    },
+
+    // Fix for GitHub pages; will not be needed with a custom domain name.
+    cdnURL: 'https://pcrist.github.io/adrian-shakespeare/'
   },
 })
