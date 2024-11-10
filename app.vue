@@ -251,6 +251,7 @@
 <style>
 html {
   scroll-behavior: smooth;
+  background: black;
 }
 </style>
 <script setup lang="ts">
