@@ -87,7 +87,7 @@
 
           <h3 class="mt-5 font-bold">Parking &amp; Transportation</h3>
           <p>
-            (Displayed once production details are available.) Parking is available in the designated lots. Don't get towed!
+            (Displayed once performance details are available.) Parking is available in the designated lots. Don't get towed!
           </p>
 
           <h3 class="mt-5 font-bold">Auditions</h3>
