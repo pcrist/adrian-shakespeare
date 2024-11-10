@@ -9,7 +9,7 @@
               class="h-12"
               alt="Adrian Shakespeare Company logo"
             />
-            <span class="ms-3 font-serif">Adrian Shakespeare Company</span>
+            <span class="ms-3 font-serif">Adrian Shakespeare Co.</span>
           </a>
 
 
@@ -42,20 +42,23 @@
 
     <div class="bg-black">
       <div class="relative">
-        <div class="absolute z-0 bg-cover bg-center h-dvh w-full bg-[url('/hero-trestle.jpg')] opacity-50"></div>
+        <div class="absolute z-0 bg-cover bg-center h-screen w-full bg-[url('/hero-trestle.jpg')] opacity-50"></div>
 
         <div class="relative z-10 md:container mx-auto text-white">
-          <div class="flex-col justify-center content-center h-dvh px-5" style="text-shadow: #000 3px 0 10px;">
-            <h1 class="text-5xl md:text-8xl uppercase font-serif font-bold tracking-wide">Adrian<br>Shakespeare<br>Company</h1>
-            <h2 class="mt-3 text-4xl font-bold">Live Theatre For Everyone</h2>
+          <div class="flex-col justify-center content-center h-screen px-5" style="text-shadow: #000 3px 0 10px;">
+            <h1 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-serif font-bold tracking-wide">Adrian<br>Shakespeare<br>Company</h1>
+            <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-bold">Live Theatre For Everyone</h2>
+            <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold">
+              Up Next
+            </a>
           </div>
         </div>
       </div>
 
       <div id="2025" class="py-10 bg-stone-50 dark:bg-stone-900">
-        <div class="md:container mx-auto px-5 text-stone-800 dark:text-stone-200">
-          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025 Production</h1>
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-violet-700 dark:text-stone-50 uppercase">(To Be Announced)</h1>
+        <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
+          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">(To Be Announced)</h1>
 
           <p class="mt-5">
             Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
@@ -72,18 +75,18 @@
       </div>
 
       <div id="2024" class="bg-stone-200 dark:bg-stone-800">
-        <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
-          <h1 class="text-xl md:text-2xl text-center font-bold dark:text-violet-500 uppercase">2024 Production</h1>
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-violet-700 dark:text-violet-500 uppercase">A Midsummer Night's Dream</h1>
-          <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-1">
+        <div class="md:container mx-auto px-5 py-10 text-stone-700 dark:text-stone-200">
+          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2024</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">A Midsummer Night's Dream</h1>
+          <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1">
             <div class="whitespace-nowrap">
-              <i class="fa fa-calendar" /> Aug 2, 3 & 4
+              <i class="w-5 sm:w-auto text-center fa fa-calendar" /> Aug 2, 3 & 4 &middot; 2024
             </div>
             <div class="whitespace-nowrap">
-              <i class="fa fa-location-dot" /> Trestle Park, Adrian, Michigan
+              <i class="w-5 sm:w-auto text-center fa fa-location-dot" /> Trestle Park, Adrian, Michigan
             </div>
             <div class="whitespace-nowrap">
-              <i class="fa fa-ticket" /> Free
+              <i class="w-5 sm:w-auto text-center fa fa-ticket" /> Free
             </div>
           </div>
 
@@ -91,8 +94,8 @@
             <li><strong>Director</strong> Stephen Kiersey</li>
             <li><strong>Producer</strong> John MacNaughton</li>
             <li><strong>Stage Manager</strong> Elizabeth Olgren</li>
-            <li><strong>Set Design</strong> Douglas Miller</li>
-            <li><strong>Costumes</strong> Rosemary Olsaver</li>
+            <li><strong>Set Designer</strong> Douglas Miller</li>
+            <li><strong>Costumer</strong> Rosemary Olsaver</li>
           </ul>
 
           <p class="mt-5">
@@ -103,7 +106,7 @@
 
       <div id="support" class="bg-stone-50 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-violet-700 dark:text-violet-500 uppercase">Support</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Support</h1>
 
           <div class="text-center py-10">
             <a
@@ -129,7 +132,7 @@
 
       <div id="auditions" class="bg-stone-200 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-violet-700 dark:text-violet-500 uppercase">Auditions</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Auditions</h1>
 
           <p class="mt-5">
             Auditions for the 2025 production are yet to be announced.
@@ -139,7 +142,7 @@
 
       <div id="story" class="bg-stone-50 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-violet-700 dark:text-violet-500 uppercase">Our Story</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Our Story</h1>
 
           <p class="mt-5">
             Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
@@ -147,15 +150,15 @@
             eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris.
           </p>
 
-          <div class="flex gap-5 justify-center mt-5">
+          <div class="flex gap-5 justify-center mt-5 text-sm sm:text-base font-serif font-bold">
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
-              Stephen Kiersey
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-200 dark:border-stone-800 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
+              <div class="py-1 px-3 bg-stone-200 dark:bg-stone-800 dark:text-stone-200 rounded -mt-3">Stephen Kiersey</div>
             </div>
 
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-2 border-violet-500 bg-[url('/adrian-shakespeare-company-john.png')]"></div>
-              John MacNaughton
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-200 dark:border-stone-800  bg-[url('/adrian-shakespeare-company-john.png')]"></div>
+              <div class="py-1 px-3 bg-stone-200 dark:bg-stone-800 dark:text-stone-200 rounded -mt-3">John MacNaughton</div>
             </div>
 
           </div>
@@ -167,9 +170,11 @@
       <div class="md:container mx-auto px-5 py-10 text-white">
         <div class="sm:flex justify-between gap-5">
           <div>
-            <strong>Adrian Shakespeare Company</strong>
-            <br>
-            Adrian, Michigan
+            <ul>
+              <li class="font-bold">Adrian Shakespeare Company</li>
+              <li>Adrian, Michigan</li>
+              <li><a href="mailto:adrianshakespeare@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespeare@gmail.com</a></li>
+            </ul>
           </div>
           <div>
             <ul>
@@ -183,11 +188,20 @@
                   <i class="fa-brands fa-square-instagram" /> Instagram
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://lenaweecommunityfoundation.com"
+                  target="_blank"
+                  class="inline-block mt-3 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-1 px-4 font-bold tracking-wide"
+                >
+                  Donate &rsaquo;
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div class="mt-5 text-center">
+        <div class="mt-5 text-sm text-center opacity-50">
           &copy; Adrian Shakespeare Company
         </div>
       </div>
