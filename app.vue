@@ -30,9 +30,7 @@
               Our Story
             </a>
           </div>
-
         </div>
-
       </nav>
     </header>
 
@@ -44,7 +42,7 @@
           <div class="flex-col justify-center content-center h-screen px-5" style="text-shadow: #000 3px 0 10px;">
             <h1 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-serif font-bold tracking-wide">Adrian<br>Shakespeare<br>Company</h1>
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-bold">Live Theatre For Everyone</h2>
-            <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold">
+            <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl">
               Up Next
             </a>
           </div>
@@ -54,7 +52,7 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2025" class="-mt-16 h-16"></div>
 
-      <div class="py-10 bg-stone-50 dark:bg-stone-900">
+      <div class="py-10 bg-stone-50 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025</h1>
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">(To Be Announced)</h1>
@@ -82,12 +80,12 @@
 
           <h3 class="mt-5 font-bold">Parking &amp; Transportation</h3>
           <p>
-            Parking is available in the designated lots. Don't get towed!
+            (Displayed once production details are available.) Parking is available in the designated lots. Don't get towed!
           </p>
 
           <h3 class="mt-5 font-bold">Auditions</h3>
           <p>
-            Audition information will be posted as soon as the 2025 production is announced!
+            (Displayed once production details are available and before the show has been cast.) Audition information will be posted as soon as the 2025 production is announced!
           </p>
         </div>
       </div>
@@ -131,7 +129,7 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="support" class="-mt-16 h-16"></div>
 
-      <div class="bg-stone-50 dark:bg-stone-900">
+      <div class="bg-stone-50 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Support</h1>
 
@@ -172,7 +170,7 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="about" class="-mt-16 h-16"></div>
 
-      <div class="bg-stone-200 dark:bg-stone-800">
+      <div class="bg-stone-200 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Our Story</h1>
 
@@ -200,10 +198,14 @@
       </div>
     </div>
 
+    <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+    <div id="footer" class="-mt-16 h-16"></div>
+
     <footer class="bg-black">
       <div class="md:container mx-auto px-5 py-10 text-white">
         <div class="sm:flex justify-between gap-5">
           <div>
+            <h4 class="uppercase font-bold mb-2 opacity-75">Contact</h4>
             <ul>
               <li class="font-bold">Adrian Shakespeare Company</li>
               <li>Adrian, Michigan</li>
@@ -211,6 +213,7 @@
             </ul>
           </div>
           <div class="mt-7 sm:mt-0">
+            <h4 class="uppercase font-bold mb-2 opacity-75">Social</h4>
             <ul>
               <li>
                 <a href="https://facebook.com" target="_blank">
@@ -226,6 +229,7 @@
           </div>
 
           <div class="mt-7 sm:mt-0">
+            <h4 class="uppercase font-bold mb-2 opacity-75">Support</h4>
             <a
               href="https://lenaweecommunityfoundation.com"
               target="_blank"
@@ -237,7 +241,7 @@
         </div>
 
         <div class="mt-5 text-sm text-center opacity-50">
-          &copy; Adrian Shakespeare Company
+          &copy; 2024 Adrian Shakespeare Company
         </div>
       </div>
     </footer>
