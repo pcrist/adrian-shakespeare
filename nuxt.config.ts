@@ -15,6 +15,12 @@ export default defineNuxtConfig({
           crossorigin: 'anonymous',
         },
       ],
+      link: [
+        {
+          rel: 'icon',
+          href: '/favicon.png'
+        },
+      ],
     },
 
     // Fix for GitHub pages; will not be needed with a custom domain name.
