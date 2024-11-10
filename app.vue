@@ -26,11 +26,7 @@
               Support
             </a>
 
-            <a href="#auditions">
-              Auditions
-            </a>
-
-            <a href="#story">
+            <a href="#about">
               Our Story
             </a>
           </div>
@@ -55,10 +51,25 @@
         </div>
       </div>
 
-      <div id="2025" class="py-10 bg-stone-50 dark:bg-stone-900">
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="2025" class="-mt-16 h-16"></div>
+
+      <div class="py-10 bg-stone-50 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025</h1>
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">(To Be Announced)</h1>
+
+          <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1">
+            <div class="whitespace-nowrap">
+              <i class="w-5 sm:w-auto text-center fa fa-calendar" /> TBA
+            </div>
+            <div class="whitespace-nowrap">
+              <i class="w-5 sm:w-auto text-center fa fa-location-dot" /> Trestle Park, Adrian, Michigan
+            </div>
+            <div class="whitespace-nowrap">
+              <i class="w-5 sm:w-auto text-center fa fa-ticket" /> Free
+            </div>
+          </div>
 
           <p class="mt-5">
             Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
@@ -66,18 +77,30 @@
             eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris. Nulla dictum magna magna.
             Integer nec orci sit amet leo molestie commodo tristique quis nulla. Donec ullamcorper, risus quis facilisis
             luctus, tortor turpis bibendum ligula, sed sagittis nibh nisl eu elit. Integer ultrices imperdiet eros,
-            laoreet consectetur ante pellentesque nec. Vivamus sit amet felis quis felis dapibus pellentesque. In
-            fringilla condimentum ligula non varius. Cras leo erat, imperdiet sit amet sem luctus, vestibulum vehicula
-            est. In magna velit, consectetur non aliquet sed, vulputate a enim. Vivamus malesuada venenatis tristique.
-            Mauris auctor enim vitae tempus cursus.
+            laoreet consectetur ante pellentesque nec.
+          </p>
+
+          <h3 class="mt-5 font-bold">Parking &amp; Transportation</h3>
+          <p>
+            Parking is available in the designated lots. Don't get towed!
+          </p>
+
+          <h3 class="mt-5 font-bold">Auditions</h3>
+          <p>
+            Audition information will be posted as soon as the 2025 production is announced!
           </p>
         </div>
       </div>
 
-      <div id="2024" class="bg-stone-200 dark:bg-stone-800">
-        <div class="md:container mx-auto px-5 py-10 text-stone-700 dark:text-stone-200">
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="2024" class="-mt-16 h-16"></div>
+
+      <div class="relative bg-black text-stone-200">
+        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/midsummer-trestle.jpg')] opacity-25"></div>
+
+        <div class="relative md:container mx-auto px-5 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2024</h1>
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">A Midsummer Night's Dream</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold uppercase">A Midsummer Night's Dream</h1>
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1">
             <div class="whitespace-nowrap">
               <i class="w-5 sm:w-auto text-center fa fa-calendar" /> Aug 2, 3 & 4 &middot; 2024
@@ -91,11 +114,12 @@
           </div>
 
           <ul class="mt-5">
-            <li><strong>Director</strong> Stephen Kiersey</li>
-            <li><strong>Producer</strong> John MacNaughton</li>
-            <li><strong>Stage Manager</strong> Elizabeth Olgren</li>
-            <li><strong>Set Designer</strong> Douglas Miller</li>
-            <li><strong>Costumer</strong> Rosemary Olsaver</li>
+            <li><strong class="inline-block w-32">Director</strong> Stephen Kiersey</li>
+            <li><strong class="inline-block w-32">Producer</strong> John MacNaughton</li>
+            <li><strong class="inline-block w-32">Choreographer</strong> Jessica Briggs</li>
+            <li><strong class="inline-block w-32">Set Designer</strong> Douglas Miller</li>
+            <li><strong class="inline-block w-32">Stage Manager</strong> Elizabeth Olgren</li>
+            <li><strong class="inline-block w-32">Costumer</strong> Rosemary Olsaver</li>
           </ul>
 
           <p class="mt-5">
@@ -104,7 +128,10 @@
         </div>
       </div>
 
-      <div id="support" class="bg-stone-50 dark:bg-stone-900">
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="support" class="-mt-16 h-16"></div>
+
+      <div class="bg-stone-50 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Support</h1>
 
@@ -122,46 +149,53 @@
             Free theatre ain't free!
           </p>
 
-          <p>
+          <p class="mt-5">
             Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
             dictum lectus tortor eu urna. Integer tempor erat ipsum, sit amet luctus dui imperdiet quis. Proin lobortis
             eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris.
           </p>
-        </div>
-      </div>
 
-      <div id="auditions" class="bg-stone-200 dark:bg-stone-800">
-        <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Auditions</h1>
-
-          <p class="mt-5">
-            Auditions for the 2025 production are yet to be announced.
+          <h3 class="mt-5 font-bold">Our donors (tentative)</h3>
+          <p>
+            This list makes sense if it doesn't require constant updates. Are there big donors we want to recognize? Should donors be grouped by year/season?
           </p>
+          <ul>
+            <li>Donor name 1</li>
+            <li>Donor name 2</li>
+            <li>Donor name 3</li>
+            <li>Donor name 4</li>
+            <li>Donor name 5</li>
+          </ul>
         </div>
       </div>
 
-      <div id="story" class="bg-stone-50 dark:bg-stone-900">
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="about" class="-mt-16 h-16"></div>
+
+      <div class="bg-stone-200 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Our Story</h1>
 
           <p class="mt-5">
-            Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
-            dictum lectus tortor eu urna. Integer tempor erat ipsum, sit amet luctus dui imperdiet quis. Proin lobortis
-            eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris.
+            A few sentences that communicate the origin story, mission and aspirations of the troupe.
           </p>
 
           <div class="flex gap-5 justify-center mt-5 text-sm sm:text-base font-serif font-bold">
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-200 dark:border-stone-800 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
-              <div class="py-1 px-3 bg-stone-200 dark:bg-stone-800 dark:text-stone-200 rounded -mt-3">Stephen Kiersey</div>
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-100 dark:border-stone-800 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
+              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3">Stephen Kiersey</div>
             </div>
 
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-200 dark:border-stone-800  bg-[url('/adrian-shakespeare-company-john.png')]"></div>
-              <div class="py-1 px-3 bg-stone-200 dark:bg-stone-800 dark:text-stone-200 rounded -mt-3">John MacNaughton</div>
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-100 dark:border-stone-800  bg-[url('/adrian-shakespeare-company-john.png')]"></div>
+              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3">John MacNaughton</div>
             </div>
-
           </div>
+
+          <h3 class="mt-5 font-bold">Advisory Board</h3>
+          <p>
+            We can list the names of the people on the Advisory Board here.
+          </p>
         </div>
       </div>
     </div>
@@ -176,7 +210,7 @@
               <li><a href="mailto:adrianshakespeare@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespeare@gmail.com</a></li>
             </ul>
           </div>
-          <div>
+          <div class="mt-7 sm:mt-0">
             <ul>
               <li>
                 <a href="https://facebook.com" target="_blank">
@@ -188,16 +222,17 @@
                   <i class="fa-brands fa-square-instagram" /> Instagram
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://lenaweecommunityfoundation.com"
-                  target="_blank"
-                  class="inline-block mt-3 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-1 px-4 font-bold tracking-wide"
-                >
-                  Donate &rsaquo;
-                </a>
-              </li>
             </ul>
+          </div>
+
+          <div class="mt-7 sm:mt-0">
+            <a
+              href="https://lenaweecommunityfoundation.com"
+              target="_blank"
+              class="block sm:inline-block bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
+            >
+              Donate &rsaquo;
+            </a>
           </div>
         </div>
 
@@ -205,9 +240,7 @@
           &copy; Adrian Shakespeare Company
         </div>
       </div>
-
     </footer>
-
   </div>
 </template>
 
