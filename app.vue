@@ -36,15 +36,22 @@
 
     <div class="bg-black">
       <div class="relative">
-        <div class="absolute z-0 bg-cover bg-center h-screen w-full bg-[url('/hero-trestle.jpg')] opacity-50"></div>
+        <div class="absolute z-0 bg-cover bg-center h-screen w-full bg-[url('/hero-trestle.jpg')] opacity-40"></div>
 
         <div class="relative z-10 md:container mx-auto text-white">
-          <div class="flex-col justify-center content-center h-screen px-5" style="text-shadow: #000 3px 0 10px;">
-            <h1 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-serif font-bold tracking-wide">Adrian<br>Shakespeare<br>Company</h1>
-            <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-bold">Live Theatre For Everyone</h2>
-            <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl">
-              Up Next
-            </a>
+          <div class="flex-col justify-center content-center h-screen px-5">
+            <img
+              src="/adrian-shakespeare-company-logo.png"
+              class="h-40 sm:h-64 md:h-84 xl:h-96"
+              alt="Adrian Shakespeare Company logo"
+            />
+
+            <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
+            <div>
+              <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
+                Up Next <i class="ms-2 fa fa-arrow-down" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -112,12 +119,12 @@
           </div>
 
           <ul class="mt-5">
-            <li><strong class="inline-block w-32">Director</strong> Stephen Kiersey</li>
-            <li><strong class="inline-block w-32">Producer</strong> John MacNaughton</li>
-            <li><strong class="inline-block w-32">Choreographer</strong> Jessica Briggs</li>
-            <li><strong class="inline-block w-32">Set Designer</strong> Douglas Miller</li>
-            <li><strong class="inline-block w-32">Stage Manager</strong> Elizabeth Olgren</li>
-            <li><strong class="inline-block w-32">Costumer</strong> Rosemary Olsaver</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Director</strong> Stephen Kiersey</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Producer</strong> John MacNaughton</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Choreographer</strong> Jessica Briggs</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Set Designer</strong> Douglas Miller</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Stage Manager</strong> Elizabeth Olgren</li>
+            <li class="flex"><strong class="basis-32 shrink-0">Costumer</strong> Rosemary Olsaver</li>
           </ul>
 
           <p class="mt-5">
@@ -155,7 +162,11 @@
 
           <h3 class="mt-5 font-bold">Our donors (tentative)</h3>
           <p>
-            This list makes sense if it doesn't require constant updates. Are there big donors we want to recognize? Should donors be grouped by year/season?
+            This list makes sense if it doesn't require frequent updates.
+            <br>
+            Are there big donors we want to recognize?
+            <br>
+            Can donors be grouped by year/season?
           </p>
           <ul>
             <li>Donor name 1</li>
@@ -175,7 +186,7 @@
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Our Story</h1>
 
           <p class="mt-5">
-            A few sentences that communicate the origin story, mission and aspirations of the troupe.
+            One or two sentences that communicate the origin story, mission and aspirations of the troupe.
           </p>
 
           <div class="flex gap-5 justify-center mt-5 text-sm sm:text-base font-serif font-bold">
@@ -192,7 +203,7 @@
 
           <h3 class="mt-5 font-bold">Advisory Board</h3>
           <p>
-            We can list the names of the people on the Advisory Board here.
+            We could list the names of the Advisory Board here.
           </p>
         </div>
       </div>
