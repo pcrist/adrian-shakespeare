@@ -232,7 +232,7 @@
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://www.instagram.com/shakespeare_trestlepark/" target="_blank">
                   <i class="fa-brands fa-square-instagram" /> Instagram
                 </a>
               </li>
