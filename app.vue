@@ -62,7 +62,7 @@
       <div class="py-10 bg-stone-50 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025</h1>
-          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">(To Be Announced)</h1>
+          <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Much Ado About Nothing</h1>
 
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1">
             <div class="whitespace-nowrap">
@@ -76,23 +76,21 @@
             </div>
           </div>
 
-          <p class="mt-5">
-            Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
-            dictum lectus tortor eu urna. Integer tempor erat ipsum, sit amet luctus dui imperdiet quis. Proin lobortis
-            eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris. Nulla dictum magna magna.
-            Integer nec orci sit amet leo molestie commodo tristique quis nulla. Donec ullamcorper, risus quis facilisis
-            luctus, tortor turpis bibendum ligula, sed sagittis nibh nisl eu elit. Integer ultrices imperdiet eros,
-            laoreet consectetur ante pellentesque nec.
-          </p>
+          <h3 class="mt-5 font-bold">Auditions &middot; Location TBA</h3>
+          <ul>
+            <li>March 21, 2025 &middot; 6-8pm</li>
+            <li>March 23, 2025 &middot; 1-3pm</li>
+          </ul>
 
-          <h3 class="mt-5 font-bold">Parking &amp; Transportation</h3>
-          <p>
-            (Displayed once performance details are available.) Parking is available in the designated lots. Don't get towed!
-          </p>
+          <h3 class="mt-5 font-bold">Callbacks &middot; Location TBA</h3>
+          <ul>
+            <li>March 29, 2025 &middot; 1-3pm</li>
+            <li>March 30, 2025 &middot; 1-3pm</li>
+          </ul>
 
-          <h3 class="mt-5 font-bold">Auditions</h3>
+          <h3 class="mt-5 font-bold">Synopsis</h3>
           <p>
-            (Displayed once production details are available and before the show has been cast.) Audition information will be posted as soon as the 2025 production is announced!
+            Written in 1598 MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
           </p>
         </div>
       </div>
@@ -151,30 +149,8 @@
           </div>
 
           <p>
-            Free theatre ain't free!
+            Free theatre doesn't happen without your support! You can make a donation to the Adrian Shakespeare Company via the Lenawee Community Foundation.
           </p>
-
-          <p class="mt-5">
-            Maecenas vitae pellentesque sapien. Donec cursus, orci at molestie eleifend, dui ipsum blandit turpis, vitae
-            dictum lectus tortor eu urna. Integer tempor erat ipsum, sit amet luctus dui imperdiet quis. Proin lobortis
-            eu lorem vitae vulputate. Donec non viverra felis, sit amet fermentum mauris.
-          </p>
-
-          <h3 class="mt-5 font-bold">Our donors (tentative)</h3>
-          <p>
-            This list makes sense if it doesn't require frequent updates.
-            <br>
-            Are there big donors we want to recognize?
-            <br>
-            Can donors be grouped by year/season?
-          </p>
-          <ul>
-            <li>Donor name 1</li>
-            <li>Donor name 2</li>
-            <li>Donor name 3</li>
-            <li>Donor name 4</li>
-            <li>Donor name 5</li>
-          </ul>
         </div>
       </div>
 
@@ -184,10 +160,6 @@
       <div class="bg-stone-200 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Our Story</h1>
-
-          <p class="mt-5">
-            One or two sentences that communicate the origin story, mission and aspirations of the troupe.
-          </p>
 
           <div class="flex gap-5 justify-center mt-5 text-sm sm:text-base font-serif font-bold">
             <div class="text-center">
@@ -201,9 +173,8 @@
             </div>
           </div>
 
-          <h3 class="mt-5 font-bold">Advisory Board</h3>
-          <p>
-            We could list the names of the Advisory Board here.
+          <p class="mt-5">
+            John MacNaughton and Stephen Kiersey have been theater professionals and part of the theater scene in Adrian since the 1970s. Friends since high school, they are now retired and often talked about theatrical opportunities in Adrian. On their daily walks through Trestle Park, they would often say, “Somebody should do Shakespeare there.” Finally they decided that if anyone was going to do it, it was going to have to be them and in early 2024 they formed the Adrian Shakespeare Company with the mission of staging free productions of Shakespeare’s plays in an outdoor setting. They asked City Commissioner Gordon Gauss to join them, and they created the nuts and bolts of the company. Later Doug Miller joined the trio, and their first production A MIDSUMMER NIGHT’S DREAM was presented in August 2024. Kiersey adapted the play as well as directed it and MacNaughton served as the production manager.
           </p>
         </div>
       </div>
@@ -227,7 +198,7 @@
             <h4 class="uppercase font-bold mb-2 opacity-75">Social</h4>
             <ul>
               <li>
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://www.facebook.com/groups/196020456713894" target="_blank">
                   <i class="fa-brands fa-square-facebook" /> Facebook
                 </a>
               </li>
@@ -252,7 +223,7 @@
         </div>
 
         <div class="mt-5 text-sm text-center opacity-50">
-          &copy; 2024 Adrian Shakespeare Company
+          &copy; 2025 Adrian Shakespeare Company
         </div>
       </div>
     </footer>
