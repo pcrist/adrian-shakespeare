@@ -99,7 +99,7 @@
       <div id="2024" class="-mt-16 h-16"></div>
 
       <div class="relative bg-black text-stone-200">
-        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/midsummer-trestle.jpg')] opacity-20"></div>
+        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-midsummer-epilogue.jpg')] opacity-30"></div>
 
         <div class="relative md:container mx-auto px-5 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2024</h1>
@@ -114,6 +114,12 @@
             <div class="whitespace-nowrap">
               <i class="w-6 sm:w-auto text-center fa fa-ticket" /> Free
             </div>
+          </div>
+
+          <div class="whitespace-nowrap md:text-center md:mt-3">
+            <a href="https://youtu.be/9HSatZHs5oU?si=pa7QpSbSfct7lvq8" target="_blank" class="font-semibold">
+              <i class="w-6 sm:w-auto text-center fa fa-youtube" />&nbsp;<span class="underline">Watch on YouTube</span>
+            </a>
           </div>
 
           <ul class="mt-5 leading-relaxed">
@@ -142,14 +148,14 @@
             <a
               href="https://lenaweecommunityfoundation.com"
               target="_blank"
-              class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-3 px-10 text-xl font-bold tracking-wide"
+              class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-5 px-10 text-xl font-bold tracking-wide"
             >
               Donate &rsaquo;
             </a>
           </div>
 
           <p class="leading-relaxed">
-            Free theatre doesn't happen without your support! You can make a donation to the Adrian Shakespeare Company via the Lenawee Community Foundation.
+            Free theatre doesn't happen without your support! You can make a donation to the Adrian Shakespeare Company through the Lenawee Community Foundation.
           </p>
         </div>
       </div>
@@ -163,13 +169,13 @@
 
           <div class="flex gap-5 justify-center mt-5 text-sm sm:text-base font-serif font-bold">
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-100 dark:border-stone-800 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
-              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3">Stephen Kiersey</div>
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 lg:size-64 border-4 border-stone-100 dark:border-stone-800 bg-[url('/adrian-shakespeare-company-stephen.png')]"></div>
+              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3 md:text-xl">Stephen Kiersey</div>
             </div>
 
             <div class="text-center">
-              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 border-4 border-stone-100 dark:border-stone-800  bg-[url('/adrian-shakespeare-company-john.png')]"></div>
-              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3">John MacNaughton</div>
+              <div class="rounded-full bg-cover bg-center mx-auto size-28 md:size-40 lg:size-64 border-4 border-stone-100 dark:border-stone-800  bg-[url('/adrian-shakespeare-company-john.png')]"></div>
+              <div class="py-1 px-3 bg-stone-100 dark:bg-stone-800 dark:text-stone-100 rounded -mt-3 md:text-xl">John MacNaughton</div>
             </div>
           </div>
 
@@ -185,8 +191,8 @@
 
     <footer class="bg-black leading-relaxed">
       <div class="md:container mx-auto px-5 py-10 text-white">
-        <div class="sm:flex justify-between gap-5">
-          <div>
+        <div class="sm:flex justify-around gap-5">
+          <div class="md:w-1/4">
             <h4 class="uppercase font-bold mb-2 opacity-75">Contact</h4>
             <ul>
               <li class="font-bold">Adrian Shakespeare Company</li>
@@ -194,35 +200,39 @@
               <li><a href="mailto:adrianshakespeare@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespeare@gmail.com</a></li>
             </ul>
           </div>
-          <div class="mt-7 sm:mt-0">
+          <div class="mt-7 sm:mt-0 md:w-1/4">
             <h4 class="uppercase font-bold mb-2 opacity-75">Social</h4>
             <ul>
               <li>
-                <a href="https://www.facebook.com/groups/196020456713894" target="_blank" class="flex">
+                <a href="https://www.facebook.com/groups/196020456713894" target="_blank" class="flex items-center">
                   <i class="fa-brands fa-square-facebook text-3xl me-2" /> Facebook
                 </a>
               </li>
               <li class="mt-3">
-                <a href="https://www.instagram.com/shakespeare_trestlepark/" target="_blank" class="flex">
+                <a href="https://www.instagram.com/shakespeare_trestlepark/" target="_blank" class="flex items-center">
                   <i class="fa-brands fa-square-instagram text-3xl me-2" /> Instagram
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="mt-7 sm:mt-0">
+          <div class="mt-7 sm:mt-0 md:w-1/4">
             <h4 class="uppercase font-bold mb-2 opacity-75">Support</h4>
             <a
               href="https://lenaweecommunityfoundation.com"
               target="_blank"
-              class="block sm:inline-block bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
+              class="block sm:inline-block sm:w-44 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
             >
               Donate &rsaquo;
             </a>
+
+            <p class="mt-2 text-sm opacity-75">
+              You can make a donation to the Adrian Shakespeare Company through the Lenawee Community Foundation.
+            </p>
           </div>
         </div>
 
-        <div class="mt-5 text-sm text-center opacity-50">
+        <div class="mt-8 text-sm text-center opacity-50">
           &copy; 2025 Adrian Shakespeare Company
         </div>
       </div>
