@@ -77,19 +77,19 @@
           </div>
 
           <h3 class="mt-5 font-bold md:text-xl">Auditions &middot; Location TBA</h3>
-          <ul class="leading-loose">
+          <ul class="leading-relaxed">
             <li>March 21, 2025 &middot; 6-8pm</li>
             <li>March 23, 2025 &middot; 1-3pm</li>
           </ul>
 
           <h3 class="mt-5 font-bold md:text-xl">Callbacks &middot; Location TBA</h3>
-          <ul class="leading-loose">
+          <ul class="leading-relaxed">
             <li>March 29, 2025 &middot; 1-3pm</li>
             <li>March 30, 2025 &middot; 1-3pm</li>
           </ul>
 
           <h3 class="mt-10 font-bold md:text-xl">Synopsis</h3>
-          <p class="leading-loose">
+          <p class="leading-relaxed">
             Written in 1598 MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
           </p>
         </div>
@@ -116,7 +116,7 @@
             </div>
           </div>
 
-          <ul class="mt-5 leading-loose">
+          <ul class="mt-5 leading-relaxed">
             <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Director</strong> Stephen Kiersey</li>
             <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Producer</strong> John MacNaughton</li>
             <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Choreographer</strong> Jessica Briggs</li>
@@ -125,7 +125,7 @@
             <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Costumer</strong> Rosemary Olsaver</li>
           </ul>
 
-          <p class="mt-5 leading-loose">
+          <p class="mt-5 leading-relaxed">
             A Midsummer Night's Dream is a comedy play written by William Shakespeare in about 1595 or 1596. The play is set in Athens, and consists of several subplots that revolve around the marriage of Theseus and Hippolyta. One subplot involves a conflict among four Athenian lovers. Another follows a group of six amateur actors rehearsing the play which they are to perform before the wedding. Both groups find themselves in a forest inhabited by fairies who manipulate the humans and are engaged in their own domestic intrigue. A Midsummer Night's Dream is one of Shakespeare's most popular and widely performed plays.
           </p>
         </div>
@@ -148,7 +148,7 @@
             </a>
           </div>
 
-          <p class="leading-loose">
+          <p class="leading-relaxed">
             Free theatre doesn't happen without your support! You can make a donation to the Adrian Shakespeare Company via the Lenawee Community Foundation.
           </p>
         </div>
@@ -173,7 +173,7 @@
             </div>
           </div>
 
-          <p class="mt-5 leading-loose">
+          <p class="mt-5 leading-relaxed">
             John MacNaughton and Stephen Kiersey have been theater professionals and part of the theater scene in Adrian since the 1970s. Friends since high school, they are now retired and often talked about theatrical opportunities in Adrian. On their daily walks through Trestle Park, they would often say, “Somebody should do Shakespeare there.” Finally they decided that if anyone was going to do it, it was going to have to be them and in early 2024 they formed the Adrian Shakespeare Company with the mission of staging free productions of Shakespeare’s plays in an outdoor setting. They asked City Commissioner Gordon Gauss to join them, and they created the nuts and bolts of the company. Later Doug Miller joined the trio, and their first production A MIDSUMMER NIGHT’S DREAM was presented in August 2024. Kiersey adapted the play as well as directed it and MacNaughton served as the production manager.
           </p>
         </div>
@@ -183,7 +183,7 @@
     <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
     <div id="footer" class="-mt-16 h-16"></div>
 
-    <footer class="bg-black leading-loose">
+    <footer class="bg-black leading-relaxed">
       <div class="md:container mx-auto px-5 py-10 text-white">
         <div class="sm:flex justify-between gap-5">
           <div>
