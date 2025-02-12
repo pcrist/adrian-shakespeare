@@ -66,7 +66,19 @@
 
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1 md:text-xl">
             <div class="whitespace-nowrap">
-              <i class="w-6 sm:w-auto text-center fa fa-calendar" /> Date TBA
+              <div class="flex items-start">
+                <i class="w-6 sm:w-auto text-center fa fa-calendar me-1 leading-relaxed md:leading-snug" />
+                <div>
+                  <span class="block md:inline">July 31 @ 6:30pm</span>
+                  <span class="hidden md:inline"> &middot; </span>
+                  <span class="block md:inline">August 1 @ 6:30pm</span>
+                  <span class="hidden md:inline"> &middot; </span>
+                  <span class="block md:inline">August 2 @ 6:30pm</span>
+                  <span class="hidden md:inline"> &middot; </span>
+                  <span class="block md:inline">August 3 @ 2:30pm</span>
+                </div>
+              </div>
+
             </div>
             <div class="whitespace-nowrap">
               <i class="w-6 sm:w-auto text-center fa fa-location-dot" /> Trestle Park, Adrian, Michigan
