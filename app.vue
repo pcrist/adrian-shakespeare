@@ -88,15 +88,23 @@
             </div>
           </div>
 
-          <h3 class="mt-5 font-bold md:text-xl">Auditions &middot; Location TBA</h3>
+          <h3 class="mt-5 font-bold md:text-xl">Auditions</h3>
+          <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
+            <i class="fa fa-location-dot me-2" />
+            Stubnitz Lab Theatre at Siena Heights University
+          </a>
           <ul class="leading-relaxed">
             <li>March 21, 2025 &middot; 6-8pm</li>
             <li>March 23, 2025 &middot; 1-3pm</li>
+            <li>March 29, 2025 &middot; 1-3pm</li>
           </ul>
 
-          <h3 class="mt-5 font-bold md:text-xl">Callbacks &middot; Location TBA</h3>
+          <h3 class="mt-5 font-bold md:text-xl">Callbacks</h3>
+          <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
+            <i class="fa fa-location-dot me-2" />
+            Stubnitz Lab Theatre at Siena Heights University
+          </a>
           <ul class="leading-relaxed">
-            <li>March 29, 2025 &middot; 1-3pm</li>
             <li>March 30, 2025 &middot; 1-3pm</li>
           </ul>
 
