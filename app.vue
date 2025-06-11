@@ -122,19 +122,16 @@
             </li>
           </ul>
 
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Production Team</h3>
+          <h3 class="mt-10 font-bold text-lg md:text-2xl">Artistic Staff</h3>
           <hr class="my-2 border-stone-300 dark:border-stone-600">
-          <ul class="leading-relaxed">
-            <li>
+          <ul class="leading-8">
+            <li
+              v-for="(person, index) in muchAdoCrew"
+              :key="index"
+            >
               <div class="flex justify-between md:justify-start">
-                <strong class="md:basis-64 shrink-0">Director</strong>
-                Stephen Kiersey
-              </div>
-            </li>
-            <li>
-              <div class="flex justify-between md:justify-start">
-                <strong class="md:basis-64 shrink-0">Producer</strong>
-                John MacNaughton
+                <strong class="md:basis-64 whitespace-nowrap overflow-hidden text-ellipsis">{{ person.role }}</strong>
+                <span class="whitespace-nowrap">{{ person.name }}</span>
               </div>
             </li>
           </ul>
@@ -394,6 +391,37 @@ const muchAdoCast = [
     character: 'Messenger',
     description: 'To Don Pedro',
     actor: 'Nic Trevino',
+  },
+]
+
+const muchAdoCrew = [
+  {
+    role: 'Production Manager',
+    name: 'John MacNaughton',
+  },
+  {
+    role: 'Director',
+    name: 'Stephen Kiersey',
+  },
+  {
+    role: 'Choreographer',
+    name: 'Jessica Briggs',
+  },
+  {
+    role: 'Costumer',
+    name: 'Pam Adair',
+  },
+  {
+    role: 'Properties',
+    name: 'Justin Kohlruss',
+  },
+  {
+    role: 'Designer',
+    name: 'Doug Miller',
+  },
+  {
+    role: 'Intimacy Coordinator',
+    name: 'Sabriyah Davis',
   },
 ]
 </script>
