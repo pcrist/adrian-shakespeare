@@ -48,8 +48,8 @@
 
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
-              <a href="#2025" class="inline-block mt-5 rounded-lg px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
-                Up Next &middot; Auditions <i class="ms-2 fa fa-arrow-down" />
+              <a href="#2025" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
+                Up Next &middot; Much Ado About Nothing<i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
           </div>
@@ -88,33 +88,61 @@
             </div>
           </div>
 
-          <h3 class="mt-5 font-bold md:text-xl">Auditions</h3>
-          <div class="inline-block">
-            <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
-              <i class="fa fa-location-dot me-2" />
-              Stubnitz Lab Theatre at Siena Heights University
-            </a>
+          <!-- Show Chipotle fundraiser until July 20. -->
+          <div class="md:flex">
+            <img
+              v-if="(new Date().getDate()) < (new Date('2025-07-20').getDate())"
+              src="/adrian-shakespeare-chipotle-fundraiser-2025.jpg"
+              class="w-sm md:max-w-sm mt-5 mx-auto"
+              alt="Chipotle Fundraiser for Adrian Shakespeare Company - Saturday, July 19th, 2025 5-9pm"
+            />
+
+            <img
+              src="/adrian-shakespeare-much-ado-about-nothing-poster.jpg"
+              class="w-sm md:max-w-sm mt-5 mx-auto"
+            />
+
           </div>
+
+          <h3 class="mt-10 font-bold text-lg md:text-2xl">Cast</h3>
+          <hr class="my-2 border-stone-300 dark:border-stone-600">
           <ul class="leading-relaxed">
-            <li>Friday, March 21, 2025 &middot; 6-8pm</li>
-            <li>Sunday, March 23, 2025 &middot; 1-3pm</li>
-            <li>Saturday, March 29, 2025 &middot; 1-3pm</li>
+            <li
+              v-for="(role, index) in muchAdoCast"
+              :key="index"
+              class="mb-2"
+            >
+              <div class="flex justify-between md:justify-start">
+                <strong class="md:basis-64 shrink-0">{{ role.character }}</strong>
+                {{ role.actor }}
+              </div>
+              <div class="text-sm -mt-1 text-stone-500 dark:text-stone-400">
+                {{role.description }}
+              </div>
+            </li>
           </ul>
 
-          <h3 class="mt-5 font-bold md:text-xl">Callbacks</h3>
-          <div class="inline-block">
-            <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
-              <i class="fa fa-location-dot me-2" />
-              Stubnitz Lab Theatre at Siena Heights University
-            </a>
-          </div>
+          <h3 class="mt-10 font-bold text-lg md:text-2xl">Production Team</h3>
+          <hr class="my-2 border-stone-300 dark:border-stone-600">
           <ul class="leading-relaxed">
-            <li>Sunday, March 30, 2025 &middot; 1-3pm</li>
+            <li>
+              <div class="flex justify-between md:justify-start">
+                <strong class="md:basis-64 shrink-0">Director</strong>
+                Stephen Kiersey
+              </div>
+            </li>
+            <li>
+              <div class="flex justify-between md:justify-start">
+                <strong class="md:basis-64 shrink-0">Producer</strong>
+                John MacNaughton
+              </div>
+            </li>
           </ul>
 
-          <h3 class="mt-10 font-bold md:text-xl">Synopsis</h3>
+          <h3 class="mt-10 font-bold text-lg md:text-2xl">Synopsis</h3>
+          <hr class="my-2 border-stone-300 dark:border-stone-600">
           <p class="leading-relaxed">
-            Written in 1598 MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
+            Written in 1598, MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
           </p>
         </div>
       </div>
@@ -270,5 +298,102 @@ html {
   background: black;
 }
 </style>
-<script setup lang="ts">
+<script setup>
+const muchAdoCast = [
+  {
+    character: 'Leonato',
+    description: 'Governor of Messina',
+    actor: 'Mark Hyre',
+  },
+  {
+    character: 'Hero',
+    description: 'His daughter',
+    actor: 'Kylie McElrath',
+  },
+  {
+    character: 'Beatrice',
+    description: 'His niece',
+    actor: 'Emily Gifford',
+  },
+  {
+    character: 'Antonia',
+    description: 'Leonato’s Sister',
+    actor: 'Maria Mohler',
+  },
+  {
+    character: 'Margaret',
+    description: 'Waiting gentlewoman to Hero',
+    actor: 'Jessica Daugherty',
+  },
+  {
+    character: 'Ursula',
+    description: 'Waiting gentlewomen to Hero',
+    actor: 'Meg McNamee',
+  },
+  {
+    character: 'Don Pedro',
+    description: 'Prince of Aragon',
+    actor: 'Samuel Spaulding',
+  },
+  {
+    character: 'Count Claudio',
+    description: 'A young lord from Florence',
+    actor: 'Max Ruff',
+  },
+  {
+    character: 'Signior Benedick',
+    description: 'A gentleman from Padua',
+    actor: 'Scott Leake',
+  },
+  {
+    character: 'Don John',
+    description: 'Don Pedro’s brother',
+    actor: 'Justin Kohlruss',
+  },
+  {
+    character: 'Borachio',
+    description: 'Follower of Don John',
+    actor: 'Conner Raymond',
+  },
+  {
+    character: 'Conrade',
+    description: 'Follower of Don John',
+    actor: 'Makana Luana',
+  },
+  {
+    character: 'Dogberry',
+    description: 'Master Constable in Messina',
+    actor: 'Bryan Shane',
+  },
+  {
+    character: 'Verges',
+    description: 'Dogberry’s partner',
+    actor: 'Tori Bruce',
+  },
+  {
+    character: 'George Seacoal',
+    description: 'A watchman',
+    actor: 'Jonah Hiatt',
+  },
+  {
+    character: 'Hugh Oatcake',
+    description: 'A watchman',
+    actor: 'AJ Landingham',
+  },
+  {
+    character: 'Sexton',
+    description: 'A sexton',
+    actor: 'Mark Schersten',
+  },
+  {
+    character: 'Friar Francis',
+    description: 'A friar',
+    actor: 'Aaron Treadway',
+  },
+  {
+    character: 'Messenger',
+    description: 'To Don Pedro',
+    actor: 'Nic Trevino',
+  },
+]
 </script>
