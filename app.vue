@@ -88,10 +88,10 @@
             </div>
           </div>
 
-          <!-- Show Chipotle fundraiser until July 20. -->
-          <div class="md:flex">
+          <div class="md:flex md:items-center">
+            <!-- Show Chipotle fundraiser until July 20. -->
             <img
-              v-if="(new Date().getDate()) < (new Date('2025-07-20').getDate())"
+              v-if="(new Date().getTime()) < (new Date('2025-07-20').getTime())"
               src="/adrian-shakespeare-chipotle-fundraiser-2025.jpg"
               class="w-sm md:max-w-sm mt-5 mx-auto"
               alt="Chipotle Fundraiser for Adrian Shakespeare Company - Saturday, July 19th, 2025 5-9pm"
@@ -99,7 +99,7 @@
 
             <img
               src="/adrian-shakespeare-much-ado-about-nothing-poster.jpg"
-              class="w-sm md:max-w-sm mt-5 mx-auto"
+              class="w-sm md:max-w-md md:height-100 mt-5 mx-auto"
             />
 
           </div>
