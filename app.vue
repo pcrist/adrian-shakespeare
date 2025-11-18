@@ -14,6 +14,10 @@
 
 
           <div class="hidden md:flex gap-5 ms-auto">
+            <a href="#2026">
+              2026
+            </a>
+
             <a href="#2025">
               2025
             </a>
@@ -49,11 +53,54 @@
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
               <a href="#2025" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
-                Up Next &middot; Much Ado About Nothing<i class="ms-2 fa fa-arrow-down" />
+                Up Next <i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="2026" class="-mt-16 h-16"></div>
+
+      <div class="py-10 bg-black text-stone">
+        <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200">
+          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
+          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Production TBD</h1>
+
+          <template v-if="(new Date().getTime()) < (new Date('2025-12-03').getTime())">
+            <div class="mt-5">
+              <h3 class="text-2xl text-center font-bold">SAVE THE DATE!</h3>
+              <h4 class="text-1xl text-center">Tuesday December 2nd is Giving Tuesday!</h4>
+
+              <div class="mt-5">
+                At this time of year when we count our blessings and offer thanks for the good things in our lives, we want to thank all of you who have supported the Adrian Shakespeare Company these past two years.
+                <br><br>
+                We will also be participating in GIVING TUESDAY (December 2) this year!
+                <br><br>
+                If you enjoy our productions and want to see them continue, we hope you will consider a gift on that day. We know that you have many organizations to support, but we hope you will add ours if you can.
+                <br><br>
+                Mark your calendars and help us keep Shakespeare in the park going strong in Adrian.
+                <br><br>Any gift, large or small, will be greatly appreciated.
+              </div>
+
+              <div class="mt-5 text-center">
+                <a
+                  href="https://lenaweecommunityfoundation.com"
+                  target="_blank"
+                  class="block sm:inline-block sm:w-44 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
+                >
+                  Donate &rsaquo;
+                </a>
+
+                <p class="mt-2 text-sm opacity-75">
+                  You can make a donation to the Adrian Shakespeare Company through the Lenawee Community Foundation.
+                </p>
+              </div>
+            </div>
+          </template>
+        </div>
+
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
@@ -86,22 +133,6 @@
             <div class="whitespace-nowrap">
               <i class="w-6 sm:w-auto text-center fa fa-ticket" /> Free
             </div>
-          </div>
-
-          <div class="md:flex md:items-center">
-            <!-- Show Chipotle fundraiser until July 20. -->
-            <img
-              v-if="(new Date().getTime()) < (new Date('2025-07-20').getTime())"
-              src="/adrian-shakespeare-chipotle-fundraiser-2025.jpg"
-              class="w-sm md:max-w-sm mt-5 mx-auto"
-              alt="Chipotle Fundraiser for Adrian Shakespeare Company - Saturday, July 19th, 2025 5-9pm"
-            />
-
-            <img
-              src="/adrian-shakespeare-much-ado-about-nothing-poster.jpg"
-              class="w-sm md:max-w-md md:height-100 mt-5 mx-auto"
-            />
-
           </div>
 
           <h3 class="mt-10 font-bold text-lg md:text-2xl">Cast</h3>
@@ -291,7 +322,7 @@
 
 <style>
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   background: black;
 }
 </style>
