@@ -52,7 +52,7 @@
 
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
-              <a href="#2025" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
+              <a href="#2026" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
                 Up Next <i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
