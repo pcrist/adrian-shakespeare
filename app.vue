@@ -66,7 +66,7 @@
       <div class="py-10 bg-black text-stone my-10">
         <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200 my-10 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
-          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Production TBD</h1>
+          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase opacity-50">Production TBD</h1>
 
           <template v-if="(new Date().getTime()) < (new Date('2025-12-03').getTime())">
             <div class="mt-5">
@@ -146,13 +146,18 @@
           <p class="mt-5 leading-relaxed">
             Written in 1598, MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
           </p>
+
+          <div class="mt-5 text-sm text-center">
+            <i class="fa fa-camera" /> Photo by <strong>Cole Carrico</strong>
+          </div>
         </div>
       </div>
+
+      <hr class="opacity-50">
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2024" class="-mt-16 h-16"></div>
 
-      <hr>
       <div class="relative bg-black text-stone-200">
         <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-midsummer-epilogue.jpg')] opacity-20"></div>
 
