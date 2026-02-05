@@ -63,8 +63,8 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2026" class="-mt-16 h-16"></div>
 
-      <div class="py-10 bg-black text-stone">
-        <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200">
+      <div class="py-10 bg-black text-stone my-10">
+        <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200 my-10 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
           <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Production TBD</h1>
 
@@ -106,26 +106,16 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2025" class="-mt-16 h-16"></div>
 
-      <div class="py-10 bg-stone-50 dark:bg-stone-800">
-        <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
+      <div class="relative bg-black text-stone-200">
+        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-much-ado-hustle.jpg')] opacity-20"></div>
+
+        <div class="relative md:container mx-auto px-5 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2025</h1>
-          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Much Ado About Nothing</h1>
+          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Much Ado About Nothing</h1>
 
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1 md:text-xl">
             <div class="whitespace-nowrap">
-              <div class="flex items-start">
-                <i class="w-6 sm:w-auto text-center fa fa-calendar me-1 leading-relaxed md:leading-snug" />
-                <div>
-                  <span class="block md:inline">July 31 @ 6:30pm</span>
-                  <span class="hidden md:inline"> &middot; </span>
-                  <span class="block md:inline">August 1 @ 6:30pm</span>
-                  <span class="hidden md:inline"> &middot; </span>
-                  <span class="block md:inline">August 2 @ 6:30pm</span>
-                  <span class="hidden md:inline"> &middot; </span>
-                  <span class="block md:inline">August 3 @ 2:30pm</span>
-                </div>
-              </div>
-
+              <i class="w-6 sm:w-auto text-center fa fa-calendar" /> July 31 &amp; Aug 1-3 &middot; 2025
             </div>
             <div class="whitespace-nowrap">
               <i class="w-6 sm:w-auto text-center fa fa-location-dot" /> Trestle Park, Adrian, Michigan
@@ -135,27 +125,13 @@
             </div>
           </div>
 
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Cast</h3>
-          <hr class="my-2 border-stone-300 dark:border-stone-600">
-          <ul class="leading-relaxed">
-            <li
-              v-for="(role, index) in muchAdoCast"
-              :key="index"
-              class="mb-2"
-            >
-              <div class="flex justify-between md:justify-start">
-                <strong class="md:basis-64 shrink-0">{{ role.character }}</strong>
-                {{ role.actor }}
-              </div>
-              <div class="text-sm -mt-1 text-stone-500 dark:text-stone-400">
-                {{role.description }}
-              </div>
-            </li>
-          </ul>
+          <div class="whitespace-nowrap md:text-center md:mt-3">
+            <a href="https://www.youtube.com/watch?v=8LEsLYEvK_U" target="_blank" class="font-semibold">
+              <i class="w-6 sm:w-auto text-center fa fa-youtube" />&nbsp;<span class="underline">Watch on YouTube</span>
+            </a>
+          </div>
 
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Artistic Staff</h3>
-          <hr class="my-2 border-stone-300 dark:border-stone-600">
-          <ul class="leading-8">
+          <ul class="mt-5 leading-relaxed">
             <li
               v-for="(person, index) in muchAdoCrew"
               :key="index"
@@ -167,9 +143,7 @@
             </li>
           </ul>
 
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Synopsis</h3>
-          <hr class="my-2 border-stone-300 dark:border-stone-600">
-          <p class="leading-relaxed">
+          <p class="mt-5 leading-relaxed">
             Written in 1598, MUCH ADO ABOUT NOTHING is a romantic comedy whose plot turns on the courtship and scandal involving young Hero and her suitor, Claudio, but the war of words between Claudio’s friend Benedick and Hero’s cousin Beatrice often takes center stage. When Don Pedro’s army returns after victory to Messina, Claudio is smitten with Hero while Benedick and Beatrice swear they will remain unmarried despite a clear attraction to each other barely hidden by their witty banter. Don Pedro and the others set about tricking Benedick and Beatrice into falling in love with each other. Meanwhile, Don Pedro’s disgruntled brother, Don John, plots to ruin Hero and halt her wedding. One of Shakespeare’s beloved comedic characters, Dogberry the verbose and nonsensical Constable, is determined to foil Don John’s plot. As in true comedic fashion, everything ends well and the play concludes with a double wedding.
           </p>
         </div>
@@ -178,8 +152,9 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2024" class="-mt-16 h-16"></div>
 
+      <hr>
       <div class="relative bg-black text-stone-200">
-        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-midsummer-epilogue.jpg')] opacity-30"></div>
+        <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-midsummer-epilogue.jpg')] opacity-20"></div>
 
         <div class="relative md:container mx-auto px-5 py-10">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2024</h1>
