@@ -63,42 +63,12 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2026" class="-mt-16 h-16"></div>
 
-      <div class="py-10 bg-black text-stone my-10">
-        <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200 my-10 py-10">
-          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
-          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase opacity-50">Production TBD</h1>
-
-          <template v-if="(new Date().getTime()) < (new Date('2025-12-03').getTime())">
-            <div class="mt-5">
-              <h3 class="text-2xl text-center font-bold">SAVE THE DATE!</h3>
-              <h4 class="text-1xl text-center">Tuesday December 2nd is Giving Tuesday!</h4>
-
-              <div class="mt-5">
-                At this time of year when we count our blessings and offer thanks for the good things in our lives, we want to thank all of you who have supported the Adrian Shakespeare Company these past two years.
-                <br><br>
-                We will also be participating in GIVING TUESDAY (December 2) this year!
-                <br><br>
-                If you enjoy our productions and want to see them continue, we hope you will consider a gift on that day. We know that you have many organizations to support, but we hope you will add ours if you can.
-                <br><br>
-                Mark your calendars and help us keep Shakespeare in the park going strong in Adrian.
-                <br><br>Any gift, large or small, will be greatly appreciated.
-              </div>
-
-              <div class="mt-5 text-center">
-                <a
-                  href="https://lenaweecommunityfoundation.com"
-                  target="_blank"
-                  class="block sm:inline-block sm:w-44 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
-                >
-                  Donate &rsaquo;
-                </a>
-
-                <p class="mt-2 text-sm opacity-75">
-                  You can make a donation to the Adrian Shakespeare Company through the Lenawee Community Foundation.
-                </p>
-              </div>
-            </div>
-          </template>
+      <div class="py-10 bg-stone-900 text-stone">
+        <div class="py-10">
+          <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200 my-10 py-10">
+            <h1 class="text-xl md:text-2xl text-center font-bold uppercase mt-10">2026</h1>
+            <h1 class="my-3 mb-10 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Production TBA</h1>
+          </div>
         </div>
 
       </div>
@@ -183,12 +153,15 @@
           </div>
 
           <ul class="mt-5 leading-relaxed">
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Director</strong> Stephen Kiersey</li>
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Producer</strong> John MacNaughton</li>
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Choreographer</strong> Jessica Briggs</li>
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Set Designer</strong> Douglas Miller</li>
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Stage Manager</strong> Elizabeth Olgren</li>
-            <li class="flex"><strong class="basis-32 md:basis-40 shrink-0">Costumer</strong> Rosemary Olsaver</li>
+            <li
+              v-for="(person, index) in midsummerCrew"
+              :key="index"
+            >
+              <div class="flex justify-between md:justify-start">
+                <strong class="md:basis-64 whitespace-nowrap overflow-hidden text-ellipsis">{{ person.role }}</strong>
+                <span class="whitespace-nowrap">{{ person.name }}</span>
+              </div>
+            </li>
           </ul>
 
           <p class="mt-5 leading-relaxed">
@@ -200,8 +173,8 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="support" class="-mt-16 h-16"></div>
 
-      <div class="bg-stone-50 dark:bg-stone-800">
-        <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
+      <div class="bg-stone-50 dark:bg-stone-800 md:py-10">
+        <div class="md:container mx-auto md:my-10 px-5 py-10 text-stone-800 dark:text-stone-200">
           <h1 class="text-3xl md:text-5xl text-center font-serif font-bold text-stone-700 dark:text-stone-200 uppercase">Support</h1>
 
           <div class="text-center py-10">
@@ -307,132 +280,65 @@ html {
 }
 </style>
 <script setup>
-const muchAdoCast = [
-  {
-    character: 'Leonato',
-    description: 'Governor of Messina',
-    actor: 'Mark Hyre',
-  },
-  {
-    character: 'Hero',
-    description: 'His daughter',
-    actor: 'Kylie McElrath',
-  },
-  {
-    character: 'Beatrice',
-    description: 'His niece',
-    actor: 'Emily Gifford',
-  },
-  {
-    character: 'Antonia',
-    description: 'Leonato’s Sister',
-    actor: 'Maria Mohler',
-  },
-  {
-    character: 'Margaret',
-    description: 'Waiting gentlewoman to Hero',
-    actor: 'Jessica Daugherty',
-  },
-  {
-    character: 'Ursula',
-    description: 'Waiting gentlewomen to Hero',
-    actor: 'Meg McNamee',
-  },
-  {
-    character: 'Don Pedro',
-    description: 'Prince of Aragon',
-    actor: 'Samuel Spaulding',
-  },
-  {
-    character: 'Count Claudio',
-    description: 'A young lord from Florence',
-    actor: 'Max Ruff',
-  },
-  {
-    character: 'Signior Benedick',
-    description: 'A gentleman from Padua',
-    actor: 'Scott Leake',
-  },
-  {
-    character: 'Don John',
-    description: 'Don Pedro’s brother',
-    actor: 'Justin Kohlruss',
-  },
-  {
-    character: 'Borachio',
-    description: 'Follower of Don John',
-    actor: 'Conner Raymond',
-  },
-  {
-    character: 'Conrade',
-    description: 'Follower of Don John',
-    actor: 'Makana Luana',
-  },
-  {
-    character: 'Dogberry',
-    description: 'Master Constable in Messina',
-    actor: 'Bryan Shane',
-  },
-  {
-    character: 'Verges',
-    description: 'Dogberry’s partner',
-    actor: 'Tori Bruce',
-  },
-  {
-    character: 'George Seacoal',
-    description: 'A watchman',
-    actor: 'Jonah Hiatt',
-  },
-  {
-    character: 'Hugh Oatcake',
-    description: 'A watchman',
-    actor: 'AJ Landingham',
-  },
-  {
-    character: 'Sexton',
-    description: 'A sexton',
-    actor: 'Mark Schersten',
-  },
-  {
-    character: 'Friar Francis',
-    description: 'A friar',
-    actor: 'Aaron Treadway',
-  },
-  {
-    character: 'Messenger',
-    description: 'To Don Pedro',
-    actor: 'Nic Trevino',
-  },
-]
-
 const muchAdoCrew = [
-  {
-    role: 'Production Manager',
-    name: 'John MacNaughton',
-  },
   {
     role: 'Director',
     name: 'Stephen Kiersey',
+  },
+  {
+    role: 'Production Manager',
+    name: 'John MacNaughton',
   },
   {
     role: 'Choreographer',
     name: 'Jessica Briggs',
   },
   {
+    role: 'Set Designer',
+    name: 'Douglas Miller',
+  },
+  {
     role: 'Costumer',
     name: 'Pam Adair',
+  },
+  {
+    role: 'Stage Manager',
+    name: 'Elizabeth Olgren',
   },
   {
     role: 'Properties',
     name: 'Justin Kohlruss',
   },
   {
-    role: 'Designer',
-    name: 'Doug Miller',
-  },
-  {
     role: 'Intimacy Coordinator',
     name: 'Sabriyah Davis',
+  },
+]
+
+const midsummerCrew = [
+  {
+    role: 'Director',
+    name: 'Stephen Kiersey',
+  },
+  {
+    role: 'Production Manager',
+    name: 'John MacNaughton',
+  },
+  {
+    role: 'Choreographer',
+    name: 'Jessica Briggs',
+  },
+  {
+    role: 'Set Designer',
+    name: 'Douglas Miller',
+  },
+  {
+    role: 'Costumer',
+    name: 'Rosemary Olsaver',
+  },
+  {
+    role: 'Stage Manager',
+    name: 'Elizabeth Olgren',
   },
 ]
 </script>
