@@ -179,7 +179,7 @@
 
           <div class="text-center py-10">
             <a
-              href="https://lenaweecommunityfoundation.com"
+              :href="supportUrl"
               target="_blank"
               class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-5 px-10 text-xl font-bold tracking-wide"
             >
@@ -252,7 +252,7 @@
           <div class="mt-7 sm:mt-0 md:w-1/4">
             <h4 class="uppercase font-bold mb-2 opacity-75">Support</h4>
             <a
-              href="https://lenaweecommunityfoundation.com"
+              :href="supportUrl"
               target="_blank"
               class="block sm:inline-block sm:w-44 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
             >
@@ -280,6 +280,8 @@ html {
 }
 </style>
 <script setup>
+const supportUrl = 'https://godonate.akoyago.com/LENAWEECF/fund/adrian%20shakespeare%20company'
+
 const muchAdoCrew = [
   {
     role: 'Director',
