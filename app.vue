@@ -53,7 +53,7 @@
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
               <a href="#2026" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
-                Up Next <i class="ms-2 fa fa-arrow-down" />
+                Up Next • Auditions<i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
           </div>
@@ -63,14 +63,54 @@
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2026" class="-mt-16 h-16"></div>
 
-      <div class="py-10 bg-stone-900 text-stone">
-        <div class="py-10">
-          <div class="md:container mx-auto px-5 text-stone-200 dark:text-stone-200 my-10 py-10">
-            <h1 class="text-xl md:text-2xl text-center font-bold uppercase mt-10">2026</h1>
-            <h1 class="my-3 mb-10 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Production TBA</h1>
+      <div class="py-10 bg-stone-50 dark:bg-stone-800">
+        <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
+          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
+          <h1 class="mt-3 text-2xl md:text-2xl text-center font-serif font-bold uppercase">The Tragedy of</h1>
+          <h1 class="my-1 mb-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Romeo &amp; Juliet</h1>
+
+          <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1 md:text-xl">
+            <div class="whitespace-nowrap">
+              <div class="flex items-start">
+                <i class="w-6 sm:w-auto text-center fa fa-calendar me-1 leading-relaxed md:leading-snug" />
+                <div>
+                  <span class="block md:inline">July 30 & 31 @ 6:30pm</span>
+                  <span class="hidden md:inline"> &middot; </span>
+                  <span class="block md:inline">August 1 @ 6:30pm</span>
+                  <span class="hidden md:inline"> &middot; </span>
+                  <span class="block md:inline">August 2 @ 2:30pm</span>
+                </div>
+              </div>
+            </div>
+            <div class="whitespace-nowrap">
+              <i class="w-6 sm:w-auto text-center fa fa-location-dot" /> Trestle Park, Adrian, Michigan
+            </div>
+            <div class="whitespace-nowrap">
+              <i class="w-6 sm:w-auto text-center fa fa-ticket" /> Free
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-2 font-bold text-2xl md:text-3xl">Auditions</h3>
+          <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
+            <i class="fa fa-location-dot me-2" />
+            Stubnitz Lab Theatre at Siena Heights University
+          </a>
+
+          <ul class="leading-relaxed">
+            <li>Friday, April 10, 2026 &middot; 6-8pm</li>
+            <li>Saturday, April 11, 2026 &middot; 1-3pm</li>
+          </ul>
+
+          <div class="mt-5 leading-relaxed">
+            Prepare a sonnet or soliloquy from any Shakespeare play to present. Memorization is not required but encouraged. Callbacks (if needed) will be held on <strong>Saturday, April 25 at 10:00am</strong>.
+            <br><br>
+            R & J is the quintessential romantic drama; however, the play does explore other themes of male friendship, obedience and violence, and the passion of youth in conflict with the wisdom(?) of age. Thus, we will need actors at a variety of age levels.
+            <br><br>
+            Rehearsals will begin early June and generally will be scheduled 7:00-10:00 weeknights, with possible Saturday and Sunday afternoons as we go along.
+            <br><br>
+            <a href="#footer" class="text-violet-700 dark:text-violet-400 font-bold">Contact us</a> with any questions.
           </div>
         </div>
-
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
