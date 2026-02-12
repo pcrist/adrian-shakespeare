@@ -67,8 +67,9 @@
         <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
           <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2026</h1>
           <h1 class="mt-3 text-2xl md:text-2xl text-center font-serif font-bold uppercase">The Tragedy of</h1>
-          <h1 class="my-1 mb-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Romeo &amp; Juliet</h1>
+          <h1 class="mb-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Romeo &amp; Juliet</h1>
 
+          <h3 class="mt-5 mb-2 font-bold text-2xl md:text-3xl md:text-center">Performances</h3>
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1 md:text-xl">
             <div class="whitespace-nowrap">
               <div class="flex items-start">
@@ -96,9 +97,9 @@
             Stubnitz Lab Theatre at Siena Heights University
           </a>
 
-          <ul class="leading-relaxed">
-            <li>Friday, April 10, 2026 &middot; 6-8pm</li>
-            <li>Saturday, April 11, 2026 &middot; 1-3pm</li>
+          <ul class="leading-relaxed font-bold">
+            <li><i class="fa fa-calendar me-2" />Friday, April 10, 2026 &middot; 6-8pm</li>
+            <li><i class="fa fa-calendar me-2" />Saturday, April 11, 2026 &middot; 1-3pm</li>
           </ul>
 
           <div class="mt-5 leading-relaxed">
