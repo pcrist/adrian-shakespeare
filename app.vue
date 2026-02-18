@@ -307,7 +307,7 @@
         </div>
 
         <div class="mt-8 text-sm text-center opacity-50">
-          &copy; 2025 Adrian Shakespeare Company
+          &copy; {{ new Date().getFullYear() }} Adrian Shakespeare Company
         </div>
       </div>
     </footer>
