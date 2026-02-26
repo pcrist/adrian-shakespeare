@@ -71,7 +71,7 @@
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
-      <div id="2026" class="-mt-16 h-16"></div>
+      <div id="2026" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
 
       <div class="py-10 bg-stone-50 dark:bg-stone-800">
         <div class="md:container mx-auto px-5 text-stone-700 dark:text-stone-200">
@@ -125,7 +125,7 @@
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
-      <div id="2025" class="-mt-16 h-16"></div>
+      <div id="2025" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
 
       <div class="relative bg-black text-stone-200">
         <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-much-ado-hustle.jpg')] opacity-20"></div>
@@ -177,7 +177,7 @@
       <hr class="opacity-50">
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
-      <div id="2024" class="-mt-16 h-16"></div>
+      <div id="2024" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
 
       <div class="relative bg-black text-stone-200">
         <div class="absolute z-0 bg-cover bg-center w-full h-full bg-[url('/adrian-shakespeare-company-midsummer-epilogue.jpg')] opacity-20"></div>
@@ -222,7 +222,7 @@
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
-      <div id="support" class="-mt-16 h-16"></div>
+      <div id="support" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
 
       <div class="bg-stone-50 dark:bg-stone-800 md:py-10">
         <div class="md:container mx-auto md:my-10 px-5 py-10 text-stone-800 dark:text-stone-200">
@@ -245,7 +245,7 @@
       </div>
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
-      <div id="about" class="-mt-16 h-16"></div>
+      <div id="about" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
 
       <div class="bg-stone-200 dark:bg-stone-900">
         <div class="md:container mx-auto px-5 py-10 text-stone-800 dark:text-stone-200">
