@@ -6,7 +6,7 @@
           <a href="#" class="flex items-center">
             <img
               src="/adrian-shakespeare-company-logo.png"
-              class="h-12"
+              class="h-8 md:h-12"
               alt="Adrian Shakespeare Company logo"
             />
             <span class="ms-3 font-serif text-sm md:text-xl">Adrian Shakespeare Co.</span>
@@ -34,6 +34,16 @@
               Our Story
             </a>
           </div>
+
+          <a
+            href="#support"
+            class="ms-auto md:hidden bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white"
+            style="padding: 2px; border-radius: 5px;"
+          >
+            <span class="inline-block bg-black text-fuchsia-400 py-1 px-2 rounded text-sm font-bold">
+              Support
+            </span>
+          </a>
         </div>
       </nav>
     </header>
