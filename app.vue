@@ -41,7 +41,7 @@
             style="padding: 2px; border-radius: 5px;"
           >
             <span class="inline-block bg-black text-fuchsia-400 py-1 px-2 rounded text-sm font-bold">
-              Support
+              Donate
             </span>
           </a>
         </div>
@@ -234,7 +234,7 @@
               target="_blank"
               class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-5 px-10 text-xl font-bold tracking-wide"
             >
-              Donate &rsaquo;
+              Donate now &rsaquo;
             </a>
           </div>
 
@@ -305,9 +305,9 @@
             <a
               :href="supportUrl"
               target="_blank"
-              class="block sm:inline-block sm:w-44 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
+              class="block sm:inline-block sm:w-64 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
             >
-              Donate &rsaquo;
+              Donate now &rsaquo;
             </a>
 
             <p class="mt-2 text-sm opacity-75">
