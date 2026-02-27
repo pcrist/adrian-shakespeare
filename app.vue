@@ -37,7 +37,7 @@
             <a
               href="#support"
               class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white"
-              style="padding: 2px; border-radius: 5px;"
+              style="padding: 2px; border-radius: 6px;"
             >
             <span class="inline-block bg-black text-fuchsia-400 py-1 px-2 rounded text-sm md:text-lg font-bold">
               Donate
