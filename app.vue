@@ -13,37 +13,37 @@
           </a>
 
 
-          <div class="hidden md:flex gap-5 ms-auto">
-            <a href="#2026">
+          <div class="flex items-center gap-5 ms-auto">
+            <a href="#2026" class="hidden lg:inline-block">
               2026
             </a>
 
-            <a href="#2025">
+            <a href="#2025" class="hidden lg:inline-block">
               2025
             </a>
 
-            <a href="#2024">
+            <a href="#2024" class="hidden lg:inline-block">
               2024
             </a>
 
-            <a href="#support">
+            <a href="#support" class="hidden lg:inline-block">
               Support
             </a>
 
-            <a href="#about">
+            <a href="#about" class="hidden lg:inline-block">
               Our Story
             </a>
-          </div>
 
-          <a
-            href="#support"
-            class="ms-auto md:hidden bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white"
-            style="padding: 2px; border-radius: 5px;"
-          >
-            <span class="inline-block bg-black text-fuchsia-400 py-1 px-2 rounded text-sm font-bold">
+            <a
+              href="#support"
+              class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white"
+              style="padding: 2px; border-radius: 5px;"
+            >
+            <span class="inline-block bg-black text-fuchsia-400 py-1 px-2 rounded text-sm md:text-lg font-bold">
               Donate
             </span>
-          </a>
+            </a>
+          </div>
         </div>
       </nav>
     </header>
@@ -234,7 +234,7 @@
               target="_blank"
               class="bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white rounded py-5 px-10 text-xl font-bold tracking-wide"
             >
-              Donate now &rsaquo;
+              Donate today &rsaquo;
             </a>
           </div>
 
@@ -307,7 +307,7 @@
               target="_blank"
               class="block sm:inline-block sm:w-64 bg-gradient-to-tr from-violet-700 to-fuchsia-600 text-white text-center rounded py-3 px-6 font-bold tracking-wide"
             >
-              Donate now &rsaquo;
+              Donate today &rsaquo;
             </a>
 
             <p class="mt-2 text-sm opacity-75">
