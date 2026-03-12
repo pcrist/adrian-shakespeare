@@ -114,7 +114,7 @@
 
           <div class="mt-5 leading-relaxed">
             <div>
-              Video auditions may be submitted via email to <a href="mailto:adrianshakespeare@gmail.com" class="text-violet-700 dark:text-violet-400 font-bold">adrianshakespeare@gmail.com</a> no later than April 11, 2026, at 11:59pm.
+              Video auditions may be submitted via email to <a href="mailto:adrianshakespearecompany@gmail.com" class="text-violet-700 dark:text-violet-400 font-bold">adrianshakespearecompany@gmail.com</a> no later than April 11, 2026, at 11:59pm.
             </div>
 
             <hr class="my-4">
@@ -287,7 +287,7 @@
             <ul>
               <li class="font-bold">Adrian Shakespeare Company</li>
               <li>Adrian, Michigan</li>
-              <li><a href="mailto:adrianshakespeare@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespeare@gmail.com</a></li>
+              <li><a href="mailto:adrianshakespearecompany@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespearecompany@gmail.com</a></li>
             </ul>
           </div>
           <div class="mt-7 sm:mt-0 md:w-1/4">
