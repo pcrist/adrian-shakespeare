@@ -113,6 +113,12 @@
           </ul>
 
           <div class="mt-5 leading-relaxed">
+            <div>
+              Video auditions may be submitted via email to <a href="mailto:adrianshakespeare@gmail.com" class="text-violet-700 dark:text-violet-400 font-bold">adrianshakespeare@gmail.com</a> no later than April 11, 2026, at 11:59pm.
+            </div>
+
+            <hr class="my-4">
+
             Prepare a sonnet or soliloquy from any Shakespeare play to present. Memorization is not required but encouraged. Callbacks (if needed) will be held on <strong>Saturday, April 25 at 10:00am</strong>.
             <br><br>
             R & J is the quintessential romantic drama; however, the play does explore other themes of male friendship, obedience and violence, and the passion of youth in conflict with the wisdom(?) of age. Thus, we will need actors at a variety of age levels.
