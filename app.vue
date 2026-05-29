@@ -63,7 +63,7 @@
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
               <a href="#2026" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
-                Up Next • Auditions<i class="ms-2 fa fa-arrow-down" />
+                Up Next • Romeo &amp; Juliet<i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
           </div>
@@ -101,32 +101,37 @@
             </div>
           </div>
 
-          <h3 class="mt-5 mb-2 font-bold text-2xl md:text-3xl">Auditions</h3>
-          <a href="https://maps.app.goo.gl/vZhXUtAdU73PoAnb7" target="_blank" class="text-violet-700 dark:text-violet-400 flex items-center my-1 font-semibold leading-tight">
-            <i class="fa fa-location-dot me-2" />
-            Stubnitz Lab Theatre at Siena Heights University
-          </a>
+          <p class="mt-5 leading-relaxed">
+            <strong>The Tragedy of Romeo and Juliet</strong>, often shortened to <strong>Romeo and Juliet</strong>, is a tragedy written by William Shakespeare about the romance between two young Italians from feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed. The title characters are regarded as archetypal young lovers.
+          </p>
+          <p class="mt-3 leading-relaxed">
+            The play, set in Verona, Italy, begins with a street brawl between Montague and Capulet servants who, like the masters they serve, are sworn enemies.
+          </p>
+          <p class="mt-3 leading-relaxed">
+            Persuaded by Benvolio and Mercutio, Romeo attends the ball at the Capulet house in hopes of meeting Rosaline. However, Romeo instead meets and falls in love with Juliet.
+          </p>
 
-          <ul class="leading-relaxed font-bold">
-            <li><i class="fa fa-calendar me-2" />Friday, April 10, 2026 &middot; 6-8pm</li>
-            <li><i class="fa fa-calendar me-2" />Saturday, April 11, 2026 &middot; 1-3pm</li>
+          <p class="text-sm font-italic mt-2">
+            From <a href="https://en.wikipedia.org/wiki/Romeo_and_Juliet" target="_blank" class="font-bold text-underline">Wikipedia</a>
+          </p>
+
+          <h3 class="mt-10 font-bold text-lg md:text-2xl">Cast</h3>
+          <hr class="my-2 border-stone-300 dark:border-stone-600">
+          <ul class="leading-relaxed">
+            <li
+              v-for="(role, index) in romeoAndJulietCast"
+              :key="index"
+              class="mb-2"
+            >
+              <div class="flex justify-between md:justify-start">
+                <strong class="md:basis-64 shrink-0">{{ role.character }}</strong>
+                {{ role.actor }}
+              </div>
+              <div class="text-sm -mt-1 text-stone-500 dark:text-stone-400">
+                {{role.description }}
+              </div>
+            </li>
           </ul>
-
-          <div class="mt-5 leading-relaxed">
-            <div>
-              Video auditions may be submitted via email to <a href="mailto:adrianshakespearecompany@gmail.com" class="text-violet-700 dark:text-violet-400 font-bold">adrianshakespearecompany@gmail.com</a> no later than April 11, 2026, at 11:59pm.
-            </div>
-
-            <hr class="my-4">
-
-            Prepare a sonnet or soliloquy from any Shakespeare play to present. Memorization is not required but encouraged. Callbacks (if needed) will be held on <strong>Saturday, April 25 at 10:00am</strong>.
-            <br><br>
-            R & J is the quintessential romantic drama; however, the play does explore other themes of male friendship, obedience and violence, and the passion of youth in conflict with the wisdom(?) of age. Thus, we will need actors at a variety of age levels.
-            <br><br>
-            Rehearsals will begin early June and generally will be scheduled 7:00-10:00 weeknights, with possible Saturday and Sunday afternoons as we go along.
-            <br><br>
-            <a href="#footer" class="text-violet-700 dark:text-violet-400 font-bold">Contact us</a> with any questions.
-          </div>
         </div>
       </div>
 
@@ -338,6 +343,28 @@ html {
 </style>
 <script setup>
 const supportUrl = 'https://godonate.akoyago.com/LENAWEECF/fund/adrian%20shakespeare%20company'
+
+const romeoAndJulietCast = [
+  { character: 'Romeo', actor: 'Eli Stachowske', description: 'Son of Montague' },
+  { character: 'Benvolio', actor: 'AJ Landingham', description: 'Montague cousin of Romeo' },
+  { character: 'Balthasar', actor: 'Aiden Leake', description: 'Montague servant' },
+  { character: 'Abraham', actor: 'Nate Adams', description: 'Montague servant' },
+  { character: 'Lord Montague', actor: 'Rob Flumignan', description: 'Father of Romeo' },
+  { character: 'Lady Montague', actor: 'Autumn Cadotte', description: 'Mother of Romeo' },
+  { character: 'Juliet', actor: 'Ella Flumignan', description: 'Daughter of Capulet' },
+  { character: 'Tybalt', actor: 'Kyler Mattoon', description: 'Capulet cousin of Juliet' },
+  { character: 'Sampson', actor: 'Max Ruff', description: 'Capulet servant' },
+  { character: 'Gregory', actor: 'Eric Huffman', description: 'Capulet servant' },
+  { character: 'Lord Capulet', actor: 'Bryan Shane', description: "Father of Juliet" },
+  { character: 'Lady Capulet', actor: 'Cassidy Giddens', description: 'Mother of Juliet' },
+  { character: 'Nurse', actor: 'Makana Luana', description: 'Capulet servant to Juliet' },
+  { character: 'Mercutio', actor: 'Nate Adams', description: 'Friend of Romeo, related to Prince' },
+  { character: 'Count Paris', actor: 'Eric Huffman', description: 'Intended for Juliet, related to Prince' },
+  { character: 'Prince Escalus', actor: 'Justin Kohlruss', description: 'Prince of Verona' },
+  { character: 'Friar Lawrence', actor: 'Max Ruff', description: 'Franciscan who marries Romeo & Juliet' },
+  { character: 'Friar John', actor: 'Aiden Leake', description: 'Friend of Friar Lawrence' },
+  { character: 'Prologue/Apothecary', actor: 'Mark Schersten', description: 'Sells poison to Romeo' },
+]
 
 const muchAdoCrew = [
   {
