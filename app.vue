@@ -364,7 +364,7 @@ const romeoAndJulietCast = [
   { character: 'Balthasar', actor: 'Aiden Leake', description: 'Montague servant' },
   { character: 'Abraham', actor: 'Nate Adams', description: 'Montague servant' },
   { character: 'Lord Montague', actor: 'Rob Flumignan', description: 'Father of Romeo' },
-  { character: 'Lady Montague', actor: 'Autumn Cadotte', description: 'Mother of Romeo' },
+  { character: 'Lady Montague', actor: 'Pam Adair', description: 'Mother of Romeo' },
   { character: 'Juliet', actor: 'Ella Flumignan', description: 'Daughter of Capulet' },
   { character: 'Tybalt', actor: 'Kyler Mattoon', description: 'Capulet cousin of Juliet' },
   { character: 'Sampson', actor: 'Max Ruff', description: 'Capulet servant' },
