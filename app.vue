@@ -62,13 +62,35 @@
 
             <h2 class="mt-3 text-xl sm:text-2xl md:text-4xl font-serif font-bold">Live Theatre For Everyone.</h2>
             <div>
-              <a href="#2026" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
-                Up Next • Romeo &amp; Juliet<i class="ms-2 fa fa-arrow-down" />
+              <a href="#2027" class="inline-block mt-5 rounded-lg px-3 sm:px-5 py-3 border-2 border-amber-500 font-bold sm:text-xl text-center">
+                Up Next &middot; 2027<i class="ms-2 fa fa-arrow-down" />
               </a>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
+      <div id="2027" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
+
+      <div class="relative bg-black text-stone-200">
+        <div class="relative md:container mx-auto px-5 py-10">
+          <h1 class="text-xl md:text-2xl text-center font-bold uppercase">2027</h1>
+          <h1 class="my-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">TBA</h1>
+
+          <p class="my-10">
+            &nbsp;
+          </p>
+          <p class="my-10 leading-relaxed text-center">
+            The Adrian Shakespeare Company's 4th production will be announced soon.
+          </p>
+          <p class="my-10">
+            &nbsp;
+          </p>
+        </div>
+      </div>
+
+      <hr class="opacity-50">
 
       <!-- Section anchor here with a negative top margin to offset the scroll position with a fixed header. -->
       <div id="2026" class="-mt-12 h-12 md:-mt-16 md:h-16"></div>
@@ -79,17 +101,12 @@
           <h1 class="mt-3 text-2xl md:text-2xl text-center font-serif font-bold uppercase">The Tragedy of</h1>
           <h1 class="mb-3 text-3xl md:text-5xl text-center font-serif font-bold uppercase">Romeo &amp; Juliet</h1>
 
-          <h3 class="mt-5 mb-2 font-bold text-2xl md:text-3xl md:text-center">Performances</h3>
           <div class="sm:flex flex-wrap gap-x-5 gap-y-1 justify-center mt-3 sm:mt-1 md:text-xl">
             <div class="whitespace-nowrap">
               <div class="flex items-start">
                 <i class="w-6 sm:w-auto text-center fa fa-calendar me-1 leading-relaxed md:leading-snug" />
                 <div>
-                  <span class="block md:inline">July 30 & 31 @ 6:30pm</span>
-                  <span class="hidden md:inline"> &middot; </span>
-                  <span class="block md:inline">August 1 @ 6:30pm</span>
-                  <span class="hidden md:inline"> &middot; </span>
-                  <span class="block md:inline">August 2 @ 2:30pm</span>
+                  <span class="block md:inline">July 30-31 &amp; Aug 1-2 &middot; 2026</span>
                 </div>
               </div>
             </div>
@@ -115,26 +132,6 @@
             From <a href="https://en.wikipedia.org/wiki/Romeo_and_Juliet" target="_blank" class="font-bold text-underline">Wikipedia</a>
           </p>
 
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Cast</h3>
-          <hr class="my-2 border-stone-300 dark:border-stone-600">
-          <ul class="leading-relaxed">
-            <li
-              v-for="(role, index) in romeoAndJulietCast"
-              :key="index"
-              class="mb-2"
-            >
-              <div class="flex justify-between md:justify-start">
-                <strong class="md:basis-64 shrink-0">{{ role.character }}</strong>
-                {{ role.actor }}
-              </div>
-              <div class="text-sm -mt-1 text-stone-500 dark:text-stone-400">
-                {{role.description }}
-              </div>
-            </li>
-          </ul>
-
-          <h3 class="mt-10 font-bold text-lg md:text-2xl">Creative Team</h3>
-          <hr class="my-2 border-stone-300 dark:border-stone-600">
           <ul class="mt-5 leading-relaxed">
             <li
               v-for="(person, index) in romeoAndJulietCrew"
