@@ -82,7 +82,7 @@
             &nbsp;
           </p>
           <p class="my-10 leading-relaxed text-center">
-            The Adrian Shakespeare Company's 4th production will be announced soon.
+            The Adrian Shakespeare Company's 4th stage production will be announced soon.
           </p>
           <p class="my-10">
             &nbsp;
@@ -303,7 +303,7 @@
             <ul>
               <li class="font-bold">Adrian Shakespeare Company</li>
               <li>Adrian, Michigan</li>
-              <li><a href="mailto:adrianshakespearecompany@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespearecompany@gmail.com</a></li>
+              <li class="text-nowrap"><a href="mailto:adrianshakespearecompany@gmail.com" class="hover:underline"><i class="fa fa-envelope me-1" />adrianshakespearecompany@gmail.com</a></li>
             </ul>
           </div>
           <div class="mt-7 sm:mt-0 md:w-1/4">
@@ -354,28 +354,6 @@ html {
 </style>
 <script setup>
 const supportUrl = 'https://godonate.akoyago.com/LENAWEECF/fund/adrian%20shakespeare%20company'
-
-const romeoAndJulietCast = [
-  { character: 'Romeo', actor: 'Eli Stachowske', description: 'Son of Montague' },
-  { character: 'Benvolio', actor: 'AJ Landingham', description: 'Montague cousin of Romeo' },
-  { character: 'Balthasar', actor: 'Aiden Leake', description: 'Montague servant' },
-  { character: 'Abraham', actor: 'Nate Adams', description: 'Montague servant' },
-  { character: 'Lord Montague', actor: 'Rob Flumignan', description: 'Father of Romeo' },
-  { character: 'Lady Montague', actor: 'Pam Adair', description: 'Mother of Romeo' },
-  { character: 'Juliet', actor: 'Ella Flumignan', description: 'Daughter of Capulet' },
-  { character: 'Tybalt', actor: 'Kyler Mattoon', description: 'Capulet cousin of Juliet' },
-  { character: 'Sampson', actor: 'Max Ruff', description: 'Capulet servant' },
-  { character: 'Gregory', actor: 'Eric Huffman', description: 'Capulet servant' },
-  { character: 'Lord Capulet', actor: 'Bryan Shane', description: "Father of Juliet" },
-  { character: 'Lady Capulet', actor: 'Cassidy Giddens', description: 'Mother of Juliet' },
-  { character: 'Nurse', actor: 'Makana Luana', description: 'Capulet servant to Juliet' },
-  { character: 'Mercutio', actor: 'Nate Adams', description: 'Friend of Romeo, related to Prince' },
-  { character: 'Count Paris', actor: 'Eric Huffman', description: 'Intended for Juliet, related to Prince' },
-  { character: 'Prince Escalus', actor: 'Justin Kohlruss', description: 'Prince of Verona' },
-  { character: 'Friar Lawrence', actor: 'Max Ruff', description: 'Franciscan who marries Romeo & Juliet' },
-  { character: 'Friar John', actor: 'Aiden Leake', description: 'Friend of Friar Lawrence' },
-  { character: 'Prologue/Apothecary', actor: 'Mark Schersten', description: 'Sells poison to Romeo' },
-]
 
 const romeoAndJulietCrew = [
   {
